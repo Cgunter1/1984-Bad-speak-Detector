@@ -1,0 +1,30 @@
+README FOR ASSIGNMENT 3:
+
+PROGRAMS:
+        newspeak:
+                USE:
+                        - This program finds looks through a text and prints out all the offensives by the person with newspeak and badspeak.
+				- This program uses STDIN to input the text stream to the program: 
+					- When executing use ./newspeak (arguments). Then type in words and press CTRL-D to end the text stream
+                                	- Or simply use < to add a file's text to the STDIN. ./newspeak (arguments) < file.txt.
+						- I've included a couple text files, if you want to try out it working.
+				-  (./newspeak):
+                                        - Arguments:
+                                                - -s: Prints the statistics of the operation.
+                                                - -h #: Sets hashtable size  (Default is 10000).
+                                                - -f #: Sets bloomfilter size (Default is 2^20)
+                COMPILE:
+                        - To learn how to compile using Makefile, go to the Makefile section.
+
+        Makefile:
+                USE:
+                        - You can use this file to compile for both of these programs.
+                COMPILE:
+                        - This is the way to compile:
+                                - To compile sorting:
+                                        - make
+                CLEAN:
+                        - This is the way to clean:
+                                - To clean all the executables and .o files from the directory.
+                                        - make clean
+
